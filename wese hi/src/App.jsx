@@ -41,7 +41,7 @@ export default function MultiStepForm() {
       } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
         newErrors.email = 'Enter a valid email address.';
       }
-      if (!formData.phone.trim()) newErrors.phone = 'Phone number is required.';
+      if (!formData.phone.trim()) newErrors.phone = "Phone number is required.";
     }
 
     if (step === 2) {
