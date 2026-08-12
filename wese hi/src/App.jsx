@@ -46,7 +46,7 @@ export default function MultiStepForm() {
 
     if (step === 2) {
       if (!formData.address.trim()) newErrors.address = "Street address is required.";
-      if (!formData.city.trim()) newErrors.city = 'City is required.';
+      if (!formData.city.trim()) newErrors.city = "City is required.";
     }
 
     setErrors(newErrors);
