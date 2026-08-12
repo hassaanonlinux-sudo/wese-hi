@@ -72,7 +72,7 @@ export default function MultiStepForm() {
 
   const stepsConfig = [
     { label: "Personal", num: 1 },
-    { label: "Address", num: 2 },
+    { label: 'Address', num: 2 },
     { label: 'Settings', num: 3 },
     { label: 'Review', num: 4 },
   ];
