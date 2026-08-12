@@ -72,9 +72,9 @@ export default function MultiStepForm() {
 
   const stepsConfig = [
     { label: "Personal", num: 1 },
-    { label: 'Address', num: 2 },
+    { label: "Address", num: 2 },
     { label: "Settings", num: 3 },
-    { label: 'Review', num: 4 },
+    { label: "Review", num: 4 },
   ];
 
   // Render Success Screen
@@ -82,7 +82,7 @@ export default function MultiStepForm() {
     return (
       <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-xl text-center">
         <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">✓</div>
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">Registration Complete!</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-2"></h2>
         <p className="text-gray-600">Your details have been successfully recorded.</p>
       </div>
     );
