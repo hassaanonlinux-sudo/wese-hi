@@ -35,7 +35,7 @@ export default function MultiStepForm() {
     const newErrors = {};
     
     if (step === 1) {
-      if (!formData.name.trim()) newErrors.name = 'Name is required.';
+      if (!formData.name.trim()) newErrors.name = "Name is required.";
       if (!formData.email.trim()) {
         newErrors.email = 'Email is required.';
       } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
