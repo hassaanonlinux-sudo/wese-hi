@@ -74,7 +74,7 @@ export default function MultiStepForm() {
     { label: "Personal", num: 1 },
     { label: "Address", num: 2 },
     { label: "Settings", num: 3 },
-    { label: "Review", num: 4 },
+    { label: 'Review', num: 4 },
   ];
 
   // Render Success Screen
