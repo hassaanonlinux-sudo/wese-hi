@@ -83,7 +83,7 @@ export default function MultiStepForm() {
       <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-xl text-center">
         <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">✓</div>
         <h2 className="text-2xl font-bold text-gray-800 mb-2"></h2>
-        <p className="text-gray-600">Your details have .</p>
+        <p className="text-gray-600">Your details have.</p>
       </div>
     );
   }
